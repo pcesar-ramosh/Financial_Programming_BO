@@ -1,0 +1,561 @@
+
+{
+	"commands" : [ "pageselect Untitled" ],
+	"description" : "Generated based on timer.",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\cesar\\documents\\github\\financial_programming_bo\\eviews\\monet models.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "A",
+				"_last_update" : [ 739547.4152199074, "10/24/2025 09:57" ],
+				"_name" : "Untitled",
+				"_obj_count" : 79,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738885.0, "01/01/2024" ],
+						"_obs_min" : [ 725736.0, "01/01/1988" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "CPRIVR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D00",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D01",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D02",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D03",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D04",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D05",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D06",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D07",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D08",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D09",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D10",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D11",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D12",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D13",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D14",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D15",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D16",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D17",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D19",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D20",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D21",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D22",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D23",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D24",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D90",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D91",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D92",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D93",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D94",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D95",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D96",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D97",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D98",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "D99",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_CPUB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_IMPOR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_IPUB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEFCPRIV",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEFIPRIV",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DXY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EMI",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EMIR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EQ_CPRIVR",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_CPRIVR0",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "EQ_DEFCPRIV",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_DEFCPUB",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_DEFIPRIV",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_DEFIPUB",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_EMI",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_IB",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_IPRIVR",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_ITCR",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_M3",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_PHILLIPS",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "EQ_PRIV0",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "IACTR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IACTR1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IBR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INC_SAL",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_EXP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_GAP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_MUNDO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_P",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IPASR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IPC",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IPRIVR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "ITCR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "M3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PIB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PIB_GAP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PIB_P",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PIBCR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "PIBR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "TC",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 37
+			},
+			
+			{
+				"_frequency" : "A",
+				"_last_update" : [ 739547.4085532407, "10/24/2025 09:48" ],
+				"_name" : "Update_progfin",
+				"_obj_count" : 23,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738885.0, "01/01/2024" ],
+						"_obs_min" : [ 725736.0, "01/01/1988" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "CPRIVR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_CPUB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_IMPOR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEF_IPUB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEFCPRIV",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DEFIPRIV",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DXY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EMI",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EMIR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IACTR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IACTR1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IB",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IBR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INC_SAL",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_EXP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_GAP",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_MUNDO",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "INF_P",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IPASR",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "IPC",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 37
+			}
+		]
+	}
+}

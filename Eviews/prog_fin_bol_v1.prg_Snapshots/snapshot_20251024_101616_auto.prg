@@ -5,9 +5,20 @@ close @all
 %path = @runpath
 cd %path
 
-'cd "C:\Cesar\UAEF_RAF\Programa Financiero"
+'cd "C:\Users\CESAR\Documents\GitHub\Financial_Programming_BO\Eviews"
 
-wfopen "monet models.wf1"
+import data_finprog_bo.xlsx range=Hoja1 colhead=1 na="#N/A" @freq A @id @date(year) @smpl @all
+
+
+
+' === Dummies d88 ... d24 (1988–2024)
+for !yy = 1988 to 2024
+  %v = "d" + @right(@str(!yy),2)   ' nombre: d88, d99, d00, ...
+  series {%v} = (@year = !yy)
+next
+
+
+' Estimate all equations
 
 'Equation - eq_cprivr
 equation eq_cprivr.ls dlog(cprivr) c @lag(dlog(cprivr),1) dlog(pibr) ipasr d92 d97 d99 d19 d20 d21
@@ -31,41 +42,3 @@ equation eq_itcr.ls dlog(itcr) c dlog(tc) dlog(dxy) inf_mundo dlog(ipc) d02 d05 
 equation eq_m3.ls dlog(m3) c @lag(dlog(m3),1) dlog(ipc) dlog(pibr) ib d08 d09 d16 d20
 'Equation - phillips
 equation eq_phillips.ls dlog(ipc) c @lag(dlog(ipc),1) pib_gap dlog(itcr) d92 d95 d02 d07 d08 d09 d10 d13 d20 d21 d24
-
-' Create the New Page for Prog Fin
-pagecreate(page=Update_progfin) a 1988 2024
-
-pageselect Update_progfin
-copy Untitled\CPRIVR *
-copy Untitled\DEF_CPUB *
-copy Untitled\DEF_IMPOR *
-copy Untitled\DEF_IPUB *
-copy Untitled\DEFCPRIV *
-copy Untitled\DEFIPRIV *
-copy Untitled\DXY *
-copy Untitled\EMI *
-copy Untitled\EMIR *
-copy Untitled\IACTR *
-copy Untitled\IACTR1 *
-copy Untitled\IB *
-copy Untitled\IBR *
-copy Untitled\INC_SAL *
-copy Untitled\INF *
-copy Untitled\INF_EXP *
-copy Untitled\INF_GAP *
-copy Untitled\INF_MUNDO *
-copy Untitled\INF_P *
-copy Untitled\IPASR *
-copy Untitled\IPC *
-
-'group gDums @expand(@year, @dropfirst)
-'series d2010 = (@year = 2010)
-
-series year = 1988 + @trend
-' si tienes una serie "year" con el año numérico en cada fila:
-group gDums @expand(year)
-' o con bucle:
-for !yy = 1988 to 2024
-  series d!yy = (year = !yy)
-next
-

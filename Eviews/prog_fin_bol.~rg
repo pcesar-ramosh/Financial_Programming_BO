@@ -57,3 +57,15 @@ copy Untitled\INF_MUNDO *
 copy Untitled\INF_P *
 copy Untitled\IPASR *
 copy Untitled\IPC *
+
+'group gDums @expand(@year, @dropfirst)
+'series d2010 = (@year = 2010)
+
+series year = 1988 + @trend
+' si tienes una serie "year" con el año numérico en cada fila:
+group gDums @expand(year)
+' o con bucle:
+for !yy = 1988 to 2024
+  series d!yy = (year = !yy)
+next
+
