@@ -1,0 +1,24 @@
+Dependent Variable: DLOG(DEFIPRIV),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1991 2024,,,,
+Included observations: 34 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,-0.012860,0.012037,-1.068407,0.2948
+DLOG(IPC),0.574045,0.224725,2.554428,0.0166
+DLOG(DEF_IMPOR),0.551649,0.114225,4.829495,0.0000
+D00,0.079704,0.037896,2.103198,0.0449
+D03,-0.080735,0.037827,-2.134332,0.0420
+D04,-0.104809,0.037798,-2.772885,0.0099
+D05,0.131468,0.039867,3.297635,0.0027
+,,,,
+R-squared,0.803061,    Mean dependent var,,0.049785
+Adjusted R-squared,0.759297,    S.D. dependent var,,0.075606
+S.E. of regression,0.037093,    Akaike info criterion,,-3.569515
+Sum squared resid,0.037150,    Schwarz criterion,,-3.255265
+Log likelihood,67.68176,    Hannan-Quinn criter.,,-3.462347
+F-statistic,18.34977,    Durbin-Watson stat,,2.329127
+Prob(F-statistic),0.000000,,,
+,,,,

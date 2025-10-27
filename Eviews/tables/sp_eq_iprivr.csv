@@ -1,0 +1,29 @@
+Dependent Variable: DLOG(IPRIVR),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1990 2024,,,,
+Included observations: 35 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,-0.020488,0.047304,-0.433125,0.6690
+"@LAG(DLOG(IPRIVR),1)",0.103121,0.146852,0.702214,0.4896
+DLOG(PIBR),2.580686,0.769548,3.353507,0.0028
+IACTR,-1.078490,0.386576,-2.789855,0.0104
+D90,0.580035,0.131131,4.423323,0.0002
+D91,0.215467,0.131477,1.638813,0.1149
+D93,0.237687,0.120968,1.964876,0.0616
+D95,0.305502,0.117537,2.599194,0.0160
+D97,0.487963,0.120063,4.064223,0.0005
+D98,0.341997,0.132866,2.573988,0.0170
+D99,-0.110127,0.129425,-0.850894,0.4036
+D02,0.484728,0.134752,3.597181,0.0015
+,,,,
+R-squared,0.784344,    Mean dependent var,,0.052592
+Adjusted R-squared,0.681204,    S.D. dependent var,,0.194751
+S.E. of regression,0.109960,    Akaike info criterion,,-1.311536
+Sum squared resid,0.278099,    Schwarz criterion,,-0.778273
+Log likelihood,34.95187,    Hannan-Quinn criter.,,-1.127454
+F-statistic,7.604653,    Durbin-Watson stat,,2.279920
+Prob(F-statistic),0.000024,,,
+,,,,

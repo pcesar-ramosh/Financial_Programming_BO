@@ -1,0 +1,28 @@
+Dependent Variable: DLOG(EMI),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1992 2024,,,,
+Included observations: 33 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,0.033064,0.022199,1.489483,0.1506
+"@LAG(DLOG(EMI),1)",0.605883,0.128810,4.703689,0.0001
+INF_GAP(-1),-1.134233,0.623166,-1.820115,0.0824
+PIB_GAP(-1),-0.874670,0.915605,-0.955292,0.3498
+D94,0.198567,0.062194,3.192693,0.0042
+D05,0.217397,0.062529,3.476722,0.0021
+D07,0.228914,0.068624,3.335750,0.0030
+D20,0.033118,0.064055,0.517031,0.6103
+D21,-0.162554,0.120335,-1.350838,0.1905
+D23,0.141194,0.065086,2.169357,0.0411
+D24,0.043888,0.064999,0.675209,0.5066
+,,,,
+R-squared,0.796094,    Mean dependent var,,0.140614
+Adjusted R-squared,0.703410,    S.D. dependent var,,0.111738
+S.E. of regression,0.060853,    Akaike info criterion,,-2.499518
+Sum squared resid,0.081467,    Schwarz criterion,,-2.000683
+Log likelihood,52.24205,    Hannan-Quinn criter.,,-2.331675
+F-statistic,8.589290,    Durbin-Watson stat,,2.076866
+Prob(F-statistic),0.000015,,,
+,,,,
