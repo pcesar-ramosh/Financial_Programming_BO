@@ -42,3 +42,7 @@ equation eq_itcr.ls dlog(itcr) c dlog(tc) dlog(dxy) inf_mundo dlog(ipc) d02 d05 
 equation eq_m3.ls dlog(m3) c @lag(dlog(m3),1) dlog(ipc) dlog(pibr) ib d08 d09 d16 d20
 'Equation - phillips
 equation eq_phillips.ls dlog(ipc) c @lag(dlog(ipc),1) pib_gap dlog(itcr) d92 d95 d02 d07 d08 d09 d10 d13 d20 d21 d24
+
+'Anadir descripcion de ecuaciones y ver la menar de exportar desde eviews a excel  y anadir la tasa de crecimiento nueva
+
+
