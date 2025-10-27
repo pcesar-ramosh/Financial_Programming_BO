@@ -45,4 +45,3 @@ equation eq_phillips.ls dlog(ipc) c @lag(dlog(ipc),1) pib_gap dlog(itcr) d92 d95
 
 'Anadir descripcion de ecuaciones y ver la menar de exportar desde eviews a excel  y anadir la tasa de crecimiento nueva
 
-
