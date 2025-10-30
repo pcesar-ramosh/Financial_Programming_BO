@@ -1,0 +1,30 @@
+Dependent Variable: D(IB),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1999 2024,,,,
+Included observations: 26 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,-0.012622,0.005232,-2.412509,0.0313
+DLOG(EMI),-0.046641,0.017427,-2.676429,0.0190
+DLOG(PIBR),0.049741,0.110569,0.449864,0.6602
+DLOG(IPC),0.221337,0.074093,2.987277,0.0105
+D00,-0.009940,0.008149,-1.219785,0.2442
+D09,-0.001796,0.008329,-0.215614,0.8326
+D19,0.029517,0.008239,3.582656,0.0033
+D20,0.043721,0.016317,2.679421,0.0189
+D23,0.033231,0.008099,4.103178,0.0012
+D02,0.020540,0.008032,2.557419,0.0239
+D14,0.026978,0.007937,3.399035,0.0048
+D15,-0.014462,0.008028,-1.801414,0.0949
+D17,0.018977,0.007894,2.404148,0.0318
+,,,,
+R-squared,0.853114,    Mean dependent var,,-0.002385
+Adjusted R-squared,0.717526,    S.D. dependent var,,0.014123
+S.E. of regression,0.007506,    Akaike info criterion,,-6.639405
+Sum squared resid,0.000732,    Schwarz criterion,,-6.010357
+Log likelihood,99.31227,    Hannan-Quinn criter.,,-6.458262
+F-statistic,6.291977,    Durbin-Watson stat,,1.386106
+Prob(F-statistic),0.001192,,,
+,,,,

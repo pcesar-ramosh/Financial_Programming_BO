@@ -1,0 +1,26 @@
+Dependent Variable: DLOG(ITCR),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1992 2024,,,,
+Included observations: 33 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,-0.010147,0.010430,-0.972900,0.3403
+DLOG(TC),0.736232,0.142106,5.180859,0.0000
+DLOG(DXY),-0.551969,0.094666,-5.830691,0.0000
+INF_MUNDO,0.107074,0.068399,1.565434,0.1306
+DLOG(IPC),-0.598968,0.194709,-3.076228,0.0052
+D02,-0.126102,0.032417,-3.889994,0.0007
+D05,0.073586,0.030429,2.418262,0.0235
+D10,0.087970,0.030855,2.851099,0.0088
+D22,0.084713,0.032460,2.609775,0.0154
+,,,,
+R-squared,0.768026,    Mean dependent var,,-0.012189
+Adjusted R-squared,0.690702,    S.D. dependent var,,0.053632
+S.E. of regression,0.029827,    Akaike info criterion,,-3.959776
+Sum squared resid,0.021352,    Schwarz criterion,,-3.551638
+Log likelihood,74.33631,    Hannan-Quinn criter.,,-3.822450
+F-statistic,9.932503,    Durbin-Watson stat,,2.183565
+Prob(F-statistic),0.000005,,,
+,,,,

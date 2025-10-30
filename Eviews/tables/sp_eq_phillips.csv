@@ -1,0 +1,32 @@
+Dependent Variable: DLOG(IPC),,,,
+Method: Least Squares,,,,
+Date: 10/27/25   Time: 17:54,,,,
+Sample (adjusted): 1992 2024,,,,
+Included observations: 33 after adjustments,,,,
+,,,,
+Variable,Coefficient,Std. Error,t-Statistic,Prob.  
+,,,,
+C,0.007037,0.004588,1.533691,0.1425
+"@LAG(DLOG(IPC),1)",0.706473,0.081423,8.676587,0.0000
+PIB_GAP,0.275315,0.210719,1.306551,0.2078
+DLOG(ITCR),0.122404,0.044573,2.746129,0.0133
+D92,-0.000657,0.014114,-0.046543,0.9634
+D95,0.047734,0.010849,4.399811,0.0003
+D02,0.021106,0.011648,1.812023,0.0867
+D07,0.072786,0.010373,7.016666,0.0000
+D08,0.037993,0.012129,3.132437,0.0058
+D09,-0.069863,0.012526,-5.577562,0.0000
+D10,0.057519,0.011117,5.173814,0.0001
+D13,0.029107,0.011241,2.589359,0.0185
+D20,0.025550,0.026844,0.951809,0.3538
+D21,-0.017913,0.013795,-1.298500,0.2105
+D24,0.074422,0.010673,6.972939,0.0000
+,,,,
+R-squared,0.947497,    Mean dependent var,,0.050233
+Adjusted R-squared,0.906660,    S.D. dependent var,,0.032977
+S.E. of regression,0.010075,    Akaike info criterion,,-6.054551
+Sum squared resid,0.001827,    Schwarz criterion,,-5.374320
+Log likelihood,114.9001,    Hannan-Quinn criter.,,-5.825674
+F-statistic,23.20245,    Durbin-Watson stat,,2.465863
+Prob(F-statistic),0.000000,,,
+,,,,
